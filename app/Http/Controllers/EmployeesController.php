@@ -40,7 +40,7 @@ class EmployeesController extends Controller
                 $employeeTypeC = (new EmployeeService)->getEmployeeTypeC($employees);
 
                 $data = [
-                    'tpyeA' => $employeeTypeA,
+                    'typeA' => $employeeTypeA,
                     'typeB' => $employeeTypeB,
                     'typeC' => $employeeTypeC
                 ];
